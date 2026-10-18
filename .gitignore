@@ -1,0 +1,90 @@
+venv/
+__pycache__/
+.env
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Expense Automator (from feature/dashboard)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Environment & secrets ─────────────────────────────────────────────────────
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.toml
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Python ────────────────────────────────────────────────────────────────────
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+env/
+ENV/
+.env/
+.Python
+
+# ── Dependency caches ─────────────────────────────────────────────────────────
+.pip-cache/
+pip-wheel-metadata/
+poetry.lock
+Pipfile.lock
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.log
+junit*.xml
+
+# ── Type checkers & linters ───────────────────────────────────────────────────
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# ── Notebooks ─────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS artefacts ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ── Editors ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ── Uploaded receipt artefacts (local dev only) ───────────────────────────────
+uploads/
+receipts/
+tmp_receipts/
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+test.txt
