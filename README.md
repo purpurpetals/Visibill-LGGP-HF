@@ -1,3 +1,6 @@
 # Visibill-LGGP-HF
 
-HackForge 26 Leib-Gvardii Grenadierskiy Polk
+HackForge 2026
+
+Leib-Gvardii Grenadierskiy Polk (LGGP)
+The Life-Guard Grenadiers
